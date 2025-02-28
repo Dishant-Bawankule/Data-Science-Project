@@ -2,7 +2,7 @@
 Introduction
 Welcome to the Data Science Internship Assignment. In this project, you will work with real-world retail sales data to develop a forecasting model that predicts future sales for thousands of product families across different stores in Ecuador. This assignment will help you understand how external factors like promotions, holidays, economic conditions, and events impact sales, and how machine learning models can be used to improve demand forecasting.
 
-This assignment is structured into two main parts:
+**This assignment is structured into two main parts:**
 
 Data Processing and Feature Engineering (Day 1) - Cleaning, transforming, and exploring the dataset.
 Model Selection, Forecasting, and Evaluation (Day 2) - Training different forecasting models, comparing their performance, and presenting insights.
