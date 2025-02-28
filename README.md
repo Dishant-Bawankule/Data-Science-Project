@@ -31,7 +31,7 @@ Model Evaluation: Compare models using RMSE, MAPE, and R-squared.
 Visualization: Plot historical vs. predicted sales and feature importance.
 Business Insights: Summarize model performance and suggest strategies for improving sales forecasting.
 
-##Installation
+## Installation
 To run this project, you need the following Python libraries:
 
 Pandas
