@@ -35,12 +35,19 @@ Business Insights: Summarize model performance and suggest strategies for improv
 To run this project, you need the following Python libraries:
 
 Pandas
+
 NumPy
+
 Matplotlib
+
 Seaborn
+
 Scikit-learn
+
 Statsmodels
+
 XGBoost
+
 Keras (for LSTM)
 
 
