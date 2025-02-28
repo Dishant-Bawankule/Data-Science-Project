@@ -17,7 +17,7 @@ oil.csv - Daily oil prices (affecting Ecuador's economy).
 holidays_events.csv - Information about holidays and special events.
 Your task is to forecast daily sales for each product family at each store for the next 15 days after the last training date.
 
-Project Structure
+## Project Structure
 The project is structured into two main parts:
 
 1. Data Processing and Feature Engineering
@@ -31,7 +31,7 @@ Model Evaluation: Compare models using RMSE, MAPE, and R-squared.
 Visualization: Plot historical vs. predicted sales and feature importance.
 Business Insights: Summarize model performance and suggest strategies for improving sales forecasting.
 
-Installation
+##Installation
 To run this project, you need the following Python libraries:
 
 Pandas
@@ -44,19 +44,20 @@ XGBoost
 Keras (for LSTM)
 
 
-Run the Jupyter Notebook:
+#### Run the Jupyter Notebook:
 Open the Jupyter Notebook (sales_forecasting.ipynb) and run the cells step-by-step.
 The notebook is divided into two parts:
-Part 1: Data Processing and Feature Engineering.
 
-Part 2: Model Selection, Forecasting, and Evaluation.
+### Part 1: Data Processing and Feature Engineering.
 
-View Results:
+### Part 2: Model Selection, Forecasting, and Evaluation.
+
+## View Results:
 The notebook will generate visualizations, model performance metrics, and business insights.
 The final model predictions will be saved in a CSV file (predictions.csv).
 
-Code Explanation
-1. Data Processing and Feature Engineering
+## Code Explanation
+## 1. Data Processing and Feature Engineering
 
 Data Cleaning:
 Missing values in oil prices are filled using interpolation.
@@ -73,7 +74,7 @@ Visualize sales trends over time.
 Analyze sales before and after holidays and promotions.
 Check correlations between oil prices and sales.
 
-2. Model Selection, Forecasting, and Evaluation
+## 2. Model Selection, Forecasting, and Evaluation
 
 Model Training:
 Baseline Model (Naïve Forecasting).
@@ -82,7 +83,7 @@ Random Forest Regressor.
 XGBoost.
 LSTM (Long Short-Term Memory Neural Network).
 
-Model Evaluation:
+## Model Evaluation:
 Models are evaluated using RMSE, MAPE, and R-squared.
 Visualize actual vs. predicted sales.
 
@@ -109,15 +110,15 @@ Some predictions are dividing by very small actual values (causing MAPE to explo
 Data scaling issues (e.g., log-transformed data).
 Errors when computing percentage format (should be in 0-100% range).
 
-Results
+## Results
 Best Model: The best-performing model was XGBoost with an RMSE of X and MAPE of Y.
 
-Key Insights:
+## Key Insights:
 Sales are higher during holidays and promotions.
 Oil prices have a moderate negative correlation with sales.
 Paydays (15th and last day of the month) show a spike in sales.
 
-Future Work
+## Future Work
 
 Incorporate additional external factors (e.g., weather data, competitor pricing).
 Experiment with more advanced models like Prophet or deep learning architectures.
